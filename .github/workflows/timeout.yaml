@@ -12,7 +12,7 @@ jobs:
         while true; do
           echo "seconds: $count"
           count=$((count+1))
-          sleep1
+          sleep 1
         done
     - name: echo
       run: echo hello
